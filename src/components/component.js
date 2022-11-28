@@ -14,11 +14,17 @@ class House extends React.Component{
            name:"kia",
            model:"aqua"
           }
-      this.setState({name:"bently"})
-     }
+      
+     } 
+     //this.setState method 
+     change = () => {
+          this.setState({name:"bently"})}
 
      render(){
-          return<h1>this is class component {this.props.color} {this.setState.name}</h1>
+          return<div><h1>this is class component {this.props.color} {this.state.name}</h1>
+          <button onClick={this.change}></button>
+          </div>
+
      }
 }
    export default Car;
