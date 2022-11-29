@@ -59,11 +59,12 @@ class Platain extends React.Component{
           super(props);
           this.state={color:"red"}
      }
-     componentDidCatch(){
-         setTimeout(()=>{
-          this.setState({color:"blue"})
-         },1000)
-     }
+   
+     componentDidMount() {
+          setTimeout(() => {
+            this.setState({favoritecolor: "yellow"})
+          }, 1000)
+        }
      render(){
                return <h1>{this.state.color}</h1>
 
