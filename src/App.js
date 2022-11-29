@@ -3,7 +3,7 @@ import './App.css';
 import Car from './components/component';
 import Football from './components/reactEvent';
 import { Planes } from './components/component';
-import {House} from './components/component';
+import {House,Cassava,Platain} from './components/component';
 
 function App() {
   const shirtcolor = "green"
@@ -15,6 +15,8 @@ function App() {
 <Planes color={shirtcolor}/>
 <Football />
 <House color="pruple"/>
+<Cassava  years="years"/>
+<Platain/>
     </div>
   );
 }
