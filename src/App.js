@@ -8,6 +8,8 @@ import {Football1,Football2} from './components/reactEvent';
 import {Goal} from './components/react Condition';
 import Traffic from './components/react Condition';
 import {Ternary} from './components/react Condition';
+import Garage from './components/react List';
+import {Company,Grocery} from './components/react List';
 
 function App() {
 
@@ -26,7 +28,10 @@ function App() {
 <Football2/>
 <Goal isgoal={true}/>
 <Traffic light={true} pedestrians={true}/>
-<Ternary age={true} pass={true}/>
+<Ternary age={true} pass={false}/>
+<Garage/>
+<Company/>
+<Grocery/>
     </div>
   );
 }
