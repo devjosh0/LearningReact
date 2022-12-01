@@ -9,7 +9,7 @@ function Car(props) {
       <>
         <h1>Who lives in my garage?</h1>
         <ul>
-          {cars.map((car) => <Car brand={car} />)}
+          {cars.map((car) =>{ return(<div>{car}</div>)})}
         </ul>
       </>
     );

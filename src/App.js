@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+
 import './App.css';
 import Car from './components/component';
 import Football from './components/reactEvent';
@@ -10,6 +11,9 @@ import Traffic from './components/react Condition';
 import {Ternary} from './components/react Condition';
 import Garage from './components/react List';
 import {Company,Grocery} from './components/react List';
+import Form from './components/react forms';
+import Funhook from './components/react Hooks';
+
 
 function App() {
 
@@ -32,6 +36,8 @@ function App() {
 <Garage/>
 <Company/>
 <Grocery/>
+<Form/>
+<Funhook/>
     </div>
   );
 }
